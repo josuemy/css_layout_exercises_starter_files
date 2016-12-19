@@ -1,0 +1,57 @@
+main{
+  padding: 60px;
+
+  font-size: 0;
+}
+
+.container-one{
+  width: 800px;
+  height: 200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container-two{
+  width: 800px;
+  height: 300px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.top{
+  display: inline-block;
+
+  width: 50%;
+  height: inherit;
+
+  font-size: 0;
+  border: 1px black solid;
+}
+
+.top-1{
+  background-color: green;
+}
+
+.top-2{
+  background-color: blue;
+}
+
+.bottom{
+  display: inline-block;
+  width: 33.333%;
+  height: inherit;
+  font-size: 0;
+  border: 1px black solid;
+}
+
+.bot-1{
+  background-color: gray;
+}
+
+.bot-2{
+  background-color: black;
+}
+
+.bot-3{
+  background-color: rgb(226, 176, 27);
+}
