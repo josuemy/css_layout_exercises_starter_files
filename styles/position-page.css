@@ -1,3 +1,8 @@
+html{
+  background: url("./outerspace_landscape.jpeg") no-repeat center center fixed;
+  background-size: cover;
+}
+
 nav{
   position:relative;
   padding-right: 60px;
@@ -30,4 +35,38 @@ li{
 
 li::after{
   content:"\00a0|\00a0"
+}
+
+.container-outer{
+  position: relative;
+  width: 750px;
+  height: 450px;
+  padding-top: 50px;
+  margin-top: 90px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-dotted{
+  margin-top: 30px;
+  width: 600px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  border:10px green dotted;
+}
+
+.cat{
+  position:absolute;
+  left:0px;
+  top:0px;
+  height: 200px;
+  width: 200px;
+}
+
+.dog{
+  position:absolute;
+  right:0px;
+  bottom: 0px;
+  height: 200px;
+  width: 200px;
 }
